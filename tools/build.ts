@@ -4,7 +4,7 @@ import { prettySize } from 'pretty-size';
 import { file as gzipSizeFile } from 'gzip-size';
 import { join } from 'path';
 
-// TODO infer these from the package.json
+// TODO: infer these from the package.json
 const MODULES = [
   'core', 'app', 'app-check', 'auth-guard', 'compat', 'analytics', 'auth', 'database', 'firestore', 'functions',
   'remote-config', 'storage', 'messaging', 'performance', 'compat/analytics',
